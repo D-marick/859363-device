@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Dmitrii Ivanov](https://up.htmlacademy.ru/htmlcss/23/user/859363).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Ульянов](https://htmlacademy.ru/profile/morecodemore).
 
 ---
 
