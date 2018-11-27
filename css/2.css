@@ -1,0 +1,12 @@
+.block{
+	width: 160px;
+	height: 160px;
+}
+.block1{
+		background:url(img/popular-2.png) no-repeat,
+				   url(img/product_bg.png) no-repeat;
+		background-position: 50% 50%;
+		margin:20px; 
+			 
+}
+
