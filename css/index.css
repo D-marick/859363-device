@@ -41,3 +41,29 @@
     background-color: #f7e296;
     background-position: 50% 50%;         
 }
+
+
+/*Логотипы партнеров*/
+
+.dji{
+  width: 260px;
+  height: 100px;
+  opacity: 0.2;
+}
+
+.sp{
+
+  width: 260px;
+  height: 100px;
+  opacity: 0.2;
+}
+.gopro{
+  width: 260px;
+  height: 100px;
+  opacity: 0.2;
+}
+.vive{
+   width: 260px;
+  height: 100px;
+  opacity: 0.2;
+}
