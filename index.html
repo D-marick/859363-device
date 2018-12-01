@@ -8,10 +8,12 @@
   <body>
   <header class="main-header">
         
-          <img src="img/logo.png">
+          <img src="img/logo.png" alt="Логотип магазина Девайс">
           <form action="#" method="get">
-            <img src="img/search.png" alt="search">
-            <input type="search" placeholder="Поиск по сайту"> 
+            <label for="search"><img src="img/search.png" alt="search"></label>
+           
+            <input type="search" placeholder="Поиск по сайту" id="search">
+            <button type="submit">Найти</button> 
           </form>
        
             <div class = "upper-navigation">                
@@ -107,13 +109,26 @@
          <a class="button button_write-us" href="#">Напишите нам</a>          
       
       </section>
+      <section>
+        <form action="https://echo.htmlacademy.ru" method="post">
+
+          <label for="sender_name"><p>Ваше имя:</p></label>
+          <input type="text" name="sender_name" placeholder="Имя Фамилия" id="sender_name">
+
+          <label for="email"><p>Ваш e-mail</p></label>
+          <input type="text" name="email" placeholder="email@example.com" id="email">
+          <label for="comment"><p>Текст письма</p></label>
+          <textarea name="user_comment" id="comment" placeholder="В свободной форме" rows="6"></textarea>
+          
+        </form>
+      </section>
       </main>      
       <footer class="basement">
      
       <div class="footer_columns">
     
     <div class="collumn1">
-        <img src="img/logo.svg">
+        <img src="img/logo.png">
         <p>г.Москва, ул.Строителей 15</p>
     </div>
     
