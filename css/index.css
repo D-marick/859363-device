@@ -108,6 +108,9 @@ a{
   background-color: #464646;
 }
 
+.footer_services{
+  list-style: none;
+}
 .footer_services li a {
   font-size: 18px;
   font-family: "Gilroy";
@@ -188,6 +191,8 @@ a{
   color: rgb(70, 70, 70);
   line-height: 1.5;  
 }
+
+
 /* Блоки со схематичными изображениями товаров*/
 
 .block{ 
