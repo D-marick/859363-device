@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>Интернет-магазин "Device"</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet"> 
   </head>
   <body>
-  <header class="main-header">
+  <header class="main_header">
         
           <img src="img/logo.png" alt="Логотип магазина Девайс">
           <form action="https://echo.htmlacademy.ru" method="get">
@@ -16,41 +17,42 @@
             <button type="submit">Найти</button> 
           </form>
        
-            <div class = "upper-navigation">                
+            <div class = "upper_navigation">                
                 <a href="#"><span class="icon user">Войти</span></a>
                 <a href="#"><span class="icon compare">Сравнить</span></a>
                 <a href="#"><span class="icon cart">Корзина</span></a>
             </div>
           
-           <nav class = "main-navigation">
+           <nav class = "main_navigation">
                
-            <ul>   
-                <li><a href="catalog.html">Каталог товаров</a>
-                    <ul class="drop_down">
-                        <li class=column_list> 
-                            <ul>
+            <ul class="list_decoration">   
+                <li ><a class="user_navigation" href="catalog.html">Каталог товаров</a>
+                    <ul class="list_decoration">
+                        <li> 
+                            <ul class="list_decoration">
                                 <li><a href="#">Виртуальная реальность</a></li>
                                 <li><a href="catalog.html">Моноподы для селфи</a></li>
                                 <li><a href="#">Экшн-камеры</a></li>
                             </ul>
                         </li>
-                        <li class="column_list">
-                            <ul>
+                        <li>
+                            <ul class="list_decoration">
                                 <li><a href="#">Фитнес-браслеты</a></li>
                                 <li><a href="#">Умные часы</a></li>
                             </ul>
                         </li>
-                        <li class="column_list">
-                            <ul>
+                        <li>
+                            <ul class="list_decoration">
                                 <li><a href="#">Квадрокоптеры</a></li>
                             </ul>
                         </li>
                     </ul>
-                </li>             
-            <ul>
-                <li><a href="delivery.html">Доставка</a></li>
-                <li><a href="guarantee.html">Гарантия</a></li>
-                <li><a href="contants.html">Контакты</a></li>
+                </li> 
+             </ul>               
+            <ul class="list_decoration">
+                <li><a class="user_navigation" href="delivery.html">Доставка</a></li>
+                <li><a class="user_navigation" href="guarantee.html">Гарантия</a></li>
+                <li><a class="user_navigation" href="contants.html">Контакты</a></li>
             </ul>    
                
           </nav>
@@ -60,7 +62,7 @@
       <main>
 
       
-        <ul>
+        <ul class="gadgets">
           <a href="#"><li class="block block1"></li>Виртуальная реальность</a>
           <a href="catalog.html"><li class="block block2"></li>Моноподы для селфи</a>
           <a href="#"><li class="block block3"></li>Экшн-камеры</a>

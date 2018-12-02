@@ -1,3 +1,61 @@
+@font-face {
+    font-family: "Gilroy";
+    font-weight: bold;
+    src: url(../fonts/gilroy-extrabold-webfont.woff2) format("woff2");
+    
+    
+}
+body{
+  margin:0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.list_decoration{
+  list-style: none;
+}
+
+.upper_navigation{
+  font-size: 15px;
+  line-height: 2px;
+  color: rgb(0, 0, 0);
+}
+.user_navigation {
+  list-style: none;
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);  
+  text-transform: uppercase;
+}
+
+.upper_navigation a,
+.user_navigation a{
+  color: rgb(0, 0, 0);
+}
+
+.upper_navigation a:hover,
+.user_navigation a:hover{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.upper_navigation a:active,
+.user_navigation a:active{
+   color:rgba(0, 0, 0, 0.302);
+}
+
+.gadgets{
+    list-style: none;
+}
+.gadgets li:hover{
+  background-color: #f0c52e;
+}
+
+
+
 
 /* Блоки со схематичными изображениями товаров*/
 
