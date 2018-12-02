@@ -14,26 +14,34 @@ body{
 a{
   text-decoration: none;
 }
-
-.list_decoration{
-  list-style: none;
-}
-
 .upper_navigation{
   font-size: 15px;
   line-height: 2px;
   color: rgb(0, 0, 0);
 }
-.user_navigation {
+.user_navigation   {
   list-style: none;
   font-size: 18px;
   font-family: "Gilroy";
   color: rgb(0, 0, 0);  
   text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1.333;
+  list-style: none;
 }
 
+.drop_list{
+  list-style: none;
+  font-size: 15px;
+  font-family: "Open Sans";
+  line-height: 2.4;
+  text-transform: none;
+  letter-spacing: normal;
+} 
+
 .upper_navigation a,
-.user_navigation a{
+.user_navigation a,
+.gadgets a{
   color: rgb(0, 0, 0);
 }
 
@@ -44,18 +52,36 @@ a{
 
 .upper_navigation a:active,
 .user_navigation a:active{
-   color:rgba(0, 0, 0, 0.302);
+  color:rgba(0, 0, 0, 0.302);
 }
 
 .gadgets{
-    list-style: none;
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  line-height: 1.333;
+  font-weight: bold;
+  list-style: none;
 }
 .gadgets li:hover{
   background-color: #f0c52e;
 }
 
+.info{
+   font-size: 21px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.021;
+}
 
-
+.description{
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(70, 70, 70);
+  line-height: 2;
+  text-align: left;
+}
 
 /* Блоки со схематичными изображениями товаров*/
 
