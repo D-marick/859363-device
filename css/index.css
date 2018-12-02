@@ -1,9 +1,15 @@
 @font-face {
     font-family: "Gilroy";
     font-weight: bold;
-    src: url(../fonts/gilroy-extrabold-webfont.woff2) format("woff2");
-    
-    
+    src: url(../fonts/gilroy-extrabold-webfont.woff2) format("woff2"); 
+}
+
+@font-face {
+    font-family: "Gilroylight";
+    src: url(../fonts/gilroylight.woff2) format('woff2'),
+    src: url(../fonts/gilroylight.woff) format('woff')
+   
+
 }
 body{
   margin:0;
@@ -145,6 +151,43 @@ a{
   line-height: 1.714;
 }
 
+.options_name{
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.333;
+}
+
+.options{
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  line-height: 2.857;
+}
+.button_show{
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.goods_caption{
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.333;
+}
+
+.price{
+  font-size: 16px;
+  font-family: "Gilroylight";
+  color: rgb(70, 70, 70);
+  line-height: 1.5;  
+}
 /* Блоки со схематичными изображениями товаров*/
 
 .block{ 
