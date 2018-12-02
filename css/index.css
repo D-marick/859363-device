@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: "Gilroylight";
-    src: url(../fonts/gilroylight.woff2) format('woff2'),
-    src: url(../fonts/gilroylight.woff) format('woff')
+    src: url(../fonts/gilroylight.woff2) format('woff2');
+    
    
 
 }
@@ -279,12 +279,15 @@ a{
 
 .user_footer{  
   background-image: url(../img/user_footer.png);
+  color: rgba(255, 255, 255, 0.702);
  }
 .compare_footer{
   background-image: url(../img/compare_footer.png);
+  color: rgba(255, 255, 255, 0.702);
 }
 .cart_footer{
   background-image: url(../img/cart_footer.png);
+  color: rgba(255, 255, 255, 0.702);
 }
 
 .hide{
