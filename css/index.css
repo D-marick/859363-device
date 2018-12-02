@@ -96,3 +96,10 @@
 .cart_footer{
   background-image: url(../img/cart_footer.png);
 }
+
+.hide{
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
