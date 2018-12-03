@@ -134,6 +134,14 @@ a{
   font-weight: bold;
 }
 
+.footer_services li a:hover{
+  color: #b5b5b5;
+}
+.footer_services li a:active{
+  color: #7e7e7e;
+}
+
+
 .footer_navigation{
   font-size: 15px;
   font-family: "Open Sans";
@@ -296,17 +304,76 @@ a{
 }
 
 .user_footer{  
-  background-image: url(../img/user_footer.png);
-  color: rgba(255, 255, 255, 0.702);
- }
-.compare_footer{
-  background-image: url(../img/compare_footer.png);
-  color: rgba(255, 255, 255, 0.702);
+background: url(../img/user_footer.png) no-repeat 0px 5px; 
+display: block;
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color:#b4b4b4;
 }
-.cart_footer{
-  background-image: url(../img/cart_footer.png);
-  color: rgba(255, 255, 255, 0.702);
+.user_footer:hover{  
+background: url(../img/user_footer_hover.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #ffffff;
+} 
+.user_footer:active{  
+background: url(../img/user_footer_active.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #666666;
+} 
+
+.compare_footer{  
+background: url(../img/compare_footer.png) no-repeat 0px 5px; 
+display: block;
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color:#b4b4b4;
 }
+.compare_footer:hover{  
+background: url(../img/compare_footer_hover.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #ffffff;
+} 
+.compare_footer:active{  
+background: url(../img/cpmpare_footer_active.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #666666;
+} 
+
+.cart_footer{  
+background: url(../img/cart_footer.png) no-repeat 0px 5px; 
+display: block;
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color:#b4b4b4;
+}
+.cart_footer:hover{  
+background: url(../img/cart_footer_hover.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #ffffff;
+} 
+.cart_footer:active{  
+background: url(../img/cart_footer_active.png) no-repeat 0px 5px; 
+width: 50px; 
+height: 20px; 
+padding-left: 20px;
+color: #666666;
+} 
+
+
+
 
 .hide{
   visibility: hidden;
@@ -314,6 +381,96 @@ a{
   height: 1px;
   margin: -1px;
 }
+
+
+
+
+.HA_logo{
+ background:url(../img/HA-logo.png) no-repeat;
+ width: 27px;
+ height: 35px; 
+display: block;
+}
+
+.HA_logo:hover { 
+background: url(../img/HA-logo_hover.png) no-repeat ; 
+width: 27px;
+ height: 35px; 
+}
+
+.HA_logo:active { 
+background: url(../img/HA-logo_active.png) no-repeat ; 
+width: 27px;
+ height: 35px; 
+}
+
+
+
+.twitter{
+ background:url(../img/Twitter.png) no-repeat;
+ width: 32px;
+ height: 32px; 
+display: block;
+}
+
+.twitter:hover { 
+background: url(../img/Twitter_hover.png) no-repeat ; 
+width: 32px;
+ height: 32px; 
+}
+
+.twitter:active { 
+background: url(../img/Twitter_active.png) no-repeat ; 
+width: 32px;
+ height: 32px; 
+}
+
+
+.inst{
+ background:url(../img/inst.png) no-repeat;
+ width: 32px;
+ height: 32px; 
+display: block;
+}
+
+.inst:hover { 
+background: url(../img/inst_hover.png) no-repeat ; 
+width: 32px;
+ height: 32px; 
+}
+
+.inst:active { 
+background: url(../img/inst_active.png) no-repeat ; 
+width: 32px;
+ height: 32px; 
+}
+
+
+
+
+.fb{
+background:url(../img/fb.png) no-repeat;
+width: 32px;
+height: 32px; 
+display: block;
+}
+
+.fb:hover { 
+background: url(../img/fb_hover.png) no-repeat ; 
+width: 32px;
+height: 32px; 
+}
+
+.fb:active { 
+background: url(../img/fb_active.png) no-repeat ; 
+width: 32px;
+height: 32px; 
+}
+
+
+
+
+
 .display_none{
   display: none;
 }
