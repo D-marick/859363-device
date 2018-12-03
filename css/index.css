@@ -314,3 +314,6 @@ a{
   height: 1px;
   margin: -1px;
 }
+.display_none{
+  display: none;
+}
