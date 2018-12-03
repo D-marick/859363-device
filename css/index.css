@@ -71,14 +71,16 @@ a{
 .user_navigation a:active{
   color:rgba(0, 0, 0, 0.302);
 }
-
 .gadgets{
+  list-style: none;
+}
+.gadgets a{
   font-size: 18px;
   font-family: "Gilroy";
   color: rgb(0, 0, 0);
   line-height: 1.333;
   font-weight: bold;
-  list-style: none;
+  
 }
 .gadgets li:hover{
   background-color: #f0c52e;
