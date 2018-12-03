@@ -262,30 +262,61 @@ a{
 /*Логотипы партнеров*/
 
 .dji{
+  background: url(../img/dji.png) no-repeat;
+  display: block;
   width: 260px;
-  height: 100px;
-  opacity: 0.2;
+  height: 100px; 
+}
+.dji:hover{
+  background: url(../img/dji_hover.png) no-repeat;
+  display: block;
+  width: 260px;
+  height: 100px; 
 }
 
 .sp{
-
+  background: url(../img/SP_gadgets.png) no-repeat;
+  display: block;
   width: 260px;
   height: 100px;
-  opacity: 0.2;
 }
-.gopro{
+.sp:hover{
+  background: url(../img/SP_gadgets_hover.png) no-repeat;
+  display: block;
   width: 260px;
   height: 100px;
-  opacity: 0.2;
+}
+
+.gopro{
+  background: url(../img/gopro.png) no-repeat;
+  display: block;
+  width: 260px;
+  height: 100px;
+}
+.gopro:hover{
+  background: url(../img/gopro_hover.png) no-repeat;
+  display: block;
+  width: 260px;
+  height: 100px;
 }
 .vive{
-   width: 260px;
+  background: url(../img/vive.png) no-repeat;
+  display: block;
+  width: 260px;
   height: 100px;
-  opacity: 0.2;
 }
-
+.vive:hover{
+  background: url(../img/vive_hover.png) no-repeat;
+  display: block;
+  width: 260px;
+  height: 100px;
+}
+.partners_logo a span{
+visibility: hidden;
+}
   /*Иконки*/
-.icon{
+}
+/*.icon{
   width: 160px;
   height: 20px;
   background-repeat: no-repeat;
@@ -302,7 +333,7 @@ a{
 .cart{
   background-image: url(../img/cart.png);
 }
-
+*/
 .user_footer{  
 background: url(../img/user_footer.png) no-repeat 0px 5px; 
 display: block;
