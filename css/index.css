@@ -32,6 +32,54 @@ a{
   text-decoration: none;
   color:black;
 }
+.main_logo{
+  display: block;
+  width: 163px;
+  height: 36px;
+  background: url(../img/logo.png); 
+}
+
+.main_logo:hover{
+  display: block;
+  width: 163px;
+  height: 36px;
+  background: url(../img/logo_hover.png); 
+}
+.main_logo:active{
+  display: block;
+  width: 163px;
+  height: 36px;
+  background: url(../img/logo_active.png); 
+}
+.main_header input:focus{
+ 
+}
+/*.search_line{
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: black;*/
+
+input[type="text"]{
+  color: black;
+} 
+
+
+.main_header input{
+  border:0px;
+  color: #000000;
+}
+
+.main_header input:hover{
+  border:0px;
+  color: #887c50;
+}
+.main_header input:focus{
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+
 .upper_navigation{
   font-size: 15px;
   line-height: 2px;
@@ -650,4 +698,11 @@ height: 32px;
 
 .display_none{
   display: none;
+}
+
+.direction:hover{
+  color:#8d8d8d;
+}
+.direction:active{
+  color:#f0f0f0;
 }
