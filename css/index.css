@@ -54,11 +54,7 @@ a{
 .main_header input:focus{
  
 }
-/*.search_line{
-  display: block;
-  width: 300px;
-  height: 2px;
-  background-color: black;*/
+
 
 input[type="text"]{
   color: black;
@@ -264,49 +260,6 @@ input[type="text"]{
 
 
 /* Блоки со схематичными изображениями товаров*/
-
-.block{ 
-  width: 160px;
-  height: 160px;  
-  }
-
-.block1{
-  
-  background:url(../img/popular-1.png) no-repeat;
-  background-color: #f7e296;
-  background-position: 50% 50%;
-  }
-
-.block2{ 
-    background:url(../img/popular-2.png) no-repeat;
-    background-color: #f7e296;
-    background-position: 50% 50%;         
-}
-
-.block3{ 
-    background:url(../img/popular-3.png) no-repeat;
-    background-color: #f7e296;
-    background-position: 50% 50%;         
-}
-
-.block4{ 
-    background:url(../img/popular-4.png) no-repeat;
-    background-color: #f7e296;
-    background-position: 50% 50%;         
-}
-
-.block5{ 
-    background:url(../img/popular-5.png) no-repeat;
-    background-color: #f7e296;
-    background-position: 50% 50%;         
-}
-
-.block6{ 
-    background:url(../img/popular-6.png) no-repeat;
-    background-color: #f7e296;
-    background-position: 50% 50%;         
-}
-
 
 .goods_name{
   position:relative;
@@ -656,9 +609,18 @@ color: #666666;
 }
 
 
-
-
-
+.device_footer{
+  background: url(../img/logo_footer.png) no-repeat;
+  width: 163px;
+  height: 36px;
+  display: block;
+}
+.device_footer:hover{
+  opacity: 0.7;
+}
+.device_footer:active{
+  opacity: 0.5;
+}
 .display_none{
   display: none;
 }
