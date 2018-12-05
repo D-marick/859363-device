@@ -478,10 +478,7 @@ input[type="text"]{
   height: 100px; 
 }
 .dji:hover{
-  background: url(../img/dji_hover.png) no-repeat;
-  display: block;
-  width: 260px;
-  height: 100px; 
+  opacity: 0.2; 
 }
 
 .sp{
@@ -491,10 +488,7 @@ input[type="text"]{
   height: 100px;
 }
 .sp:hover{
-  background: url(../img/SP_gadgets_hover.png) no-repeat;
-  display: block;
-  width: 260px;
-  height: 100px;
+  opacity: 0.2;
 }
 
 .gopro{
@@ -504,11 +498,9 @@ input[type="text"]{
   height: 100px;
 }
 .gopro:hover{
-  background: url(../img/gopro_hover.png) no-repeat;
-  display: block;
-  width: 260px;
-  height: 100px;
+ opacity: 0.2;
 }
+
 .vive{
   background: url(../img/vive.png) no-repeat;
   display: block;
@@ -516,11 +508,9 @@ input[type="text"]{
   height: 100px;
 }
 .vive:hover{
-  background: url(../img/vive_hover.png) no-repeat;
-  display: block;
-  width: 260px;
-  height: 100px;
+ opacity: 0.2;
 }
+
 .partners_logo a span{
 visibility: hidden;
 }
@@ -567,7 +557,7 @@ padding-left: 20px;
 color: #ffffff;
 } 
 .compare_footer:active{  
-background: url(../img/cpmpare_footer_active.png) no-repeat 0px 5px; 
+background: url(../img/compare_footer_active.png) no-repeat 0px 5px; 
 width: 50px; 
 height: 20px; 
 padding-left: 20px;
@@ -611,85 +601,58 @@ color: #666666;
 
 
 .HA_logo{
- background:url(../img/HA-logo.png) no-repeat;
- width: 27px;
- height: 35px; 
-display: block;
+  background:url(../img/HA-logo.png) no-repeat;
+  width: 27px;
+  height: 35px; 
+  display: block;
 }
-
 .HA_logo:hover { 
-background: url(../img/HA-logo_hover.png) no-repeat ; 
-width: 27px;
- height: 35px; 
+  opacity: 0.6;
 }
-
 .HA_logo:active { 
-background: url(../img/HA-logo_active.png) no-repeat ; 
-width: 27px;
- height: 35px; 
+  opacity: 0.3; 
 }
-
-
 
 .twitter{
- background:url(../img/Twitter.png) no-repeat;
- width: 32px;
- height: 32px; 
-display: block;
+  background:url(../img/Twitter.png) no-repeat;
+  opacity: 0.6;
+  width: 32px;
+  height: 32px; 
+  display: block;
 }
-
 .twitter:hover { 
-background: url(../img/Twitter_hover.png) no-repeat ; 
-width: 32px;
- height: 32px; 
+  opacity: 1;
 }
-
 .twitter:active { 
-background: url(../img/Twitter_active.png) no-repeat ; 
-width: 32px;
- height: 32px; 
+  opacity: 0.3;
 }
-
 
 .inst{
- background:url(../img/inst.png) no-repeat;
- width: 32px;
- height: 32px; 
-display: block;
+  background:url(../img/inst.png) no-repeat;
+  opacity: 0.6;
+  width: 32px;
+  height: 32px; 
+  display: block;
 }
-
 .inst:hover { 
-background: url(../img/inst_hover.png) no-repeat ; 
-width: 32px;
- height: 32px; 
+  opacity: 1;
 }
-
 .inst:active { 
-background: url(../img/inst_active.png) no-repeat ; 
-width: 32px;
- height: 32px; 
+  opacity: 0.3;
 }
-
-
-
 
 .fb{
-background:url(../img/fb.png) no-repeat;
-width: 32px;
-height: 32px; 
-display: block;
+  background:url(../img/fb.png) no-repeat;
+  opacity: 0.6;
+  width: 32px;
+  height: 32px; 
+  display: block;
 }
-
-.fb:hover { 
-background: url(../img/fb_hover.png) no-repeat ; 
-width: 32px;
-height: 32px; 
+.fb:hover{
+  opacity: 1;
 }
-
-.fb:active { 
-background: url(../img/fb_active.png) no-repeat ; 
-width: 32px;
-height: 32px; 
+.fb:active {  
+  opacity: 0.3;
 }
 
 
